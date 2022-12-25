@@ -1,0 +1,59 @@
+.weatherComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weatherCondition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto;
+  box-shadow: -1px 0px 9px 1px sienna;
+  color: white;
+  font-family: monospace;
+}
+.condition {
+  margin: 20px auto;
+  font-size: 19px;
+  width: 50%;
+}
+span {
+  font-size: 28px;
+}
+
+.weatherLogo {
+  width: 100px;
+  height: 100px;
+  margin: 5px auto;
+}
+
+.location {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: #f6380d;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.weatherInfoLabel {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 25px 15px;
+  text-align: start;
+  width: 90%;
+  color: white;
+  font-family: monospace;
+}
+
+.weatherInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+  box-shadow: -1px 0px 9px 1px sienna;
+  padding: 20px 20px;
+}
